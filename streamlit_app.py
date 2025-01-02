@@ -4,7 +4,6 @@ from hashlib import sha256
 import pandas as pd
 import threading
 import contextlib2
-import datetime
 
 # Thread-local storage for database connections
 _local_db = threading.local()
