@@ -1,5 +1,9 @@
 .streamlit/secrets.toml
 
+*.db
+.github
+.devcontainer
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
