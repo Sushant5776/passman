@@ -61,7 +61,6 @@ st.table(passwords_df)
 
 # Edit Password
 if st.checkbox("Edit Password"):
-    user_engagement_hook("edit_password")
     password_id = st.number_input("Enter ID of password to edit")
     if st.button("Find Password"):
         with use_db() as conn:
@@ -98,7 +97,6 @@ if st.checkbox("Edit Password"):
 
 # Delete Password
 if st.checkbox("Delete Password"):
-    user_engagement_hook("delete_password")
     password_id = st.number_input("Enter ID of password to delete")
     if st.button("Delete"):
         with use_db() as conn:
