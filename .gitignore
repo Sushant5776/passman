@@ -1,6 +1,5 @@
 .streamlit/secrets.toml
 
-*.db
 .github
 .devcontainer
 
